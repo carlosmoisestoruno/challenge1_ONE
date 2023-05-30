@@ -1,0 +1,128 @@
+*{
+    background: lightgray;
+    color: blue;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+}
+
+.logo{
+    display: block;
+    margin: 5px auto;
+    text-align: center;
+    width: 6%;
+}
+
+main{
+    display: flex;
+    margin: 0 0 50px 80px;
+}
+
+.text-area{
+    border: none;
+    color: blue;
+    font-size: 24px;
+    margin-top: 90px;
+    text-transform: lowercase;
+
+}
+
+::placeholder{
+    color: gray;
+}
+
+.text-area:focus{
+    outline: none;
+}
+
+.mensaje{
+    background: white;
+    background-image: url("/img/cifrar.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    border-radius: 24px;
+    color: blue;
+    font-size: 24px;
+    margin: 20px 0 0 90px;
+    padding: 0 0 0 20px;
+}
+
+.mensaje:focus{
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin: 18px 0 0 0;
+}
+
+.boton-encriptar{
+    background: blue;
+    border: 1px solid blue;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+    width: 320px;
+}
+
+.boton-desencriptar{
+    background: white;
+    border: 1px solid blue;
+    border-radius: 24px;
+    color: blue;
+    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+    margin-left: 14px;
+    width: 320px;
+}
+
+.boton-copiar{
+    background: white;
+    border: 1px solid blue;
+    border-radius: 24px;
+    color: blue;
+    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+    margin: 10px 0 0 70px;
+    width: 320px;
+}
+
+.informacion{
+    font-size: 16px;
+}
+
+footer{
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.perfil{
+    border: 2px grey solid ;
+    border-radius: 50%;
+    width: 10%;
+}
+
+footer p{
+    font-size: 14px;
+}
+
+footer h3{
+    font-weight: bold;
+}
+
+.redes img{
+    margin: 3px;
+}
